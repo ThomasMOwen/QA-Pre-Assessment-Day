@@ -1,0 +1,80 @@
+Encapsulation is the process where variables and methods are wrapped together as a single unit. The variables in one class are hidden from another by declaring the class as private. In order to view variable values need to use public setter and getter methods.
+
+Example:
+
+public class Encapsulation {
+
+private int x;
+private int y;
+
+public int getX() {
+	return x;
+}
+public int getY() {
+	return y;
+
+public void setX( int newX) {
+	x = newX;
+}
+public void setY (int newY) {
+	y = newY;
+}
+
+
+
+
+Inheritance is the process where one class aquires the properties of another. This is done by using the keyword "extend" when declaring the new class.
+
+Example:
+
+class Example {
+
+int z;
+
+public void addition(int x, int y){
+	z = x + y;
+	System.out.println(z)
+	}
+
+}
+
+class Eg extends Super {
+
+public void multiplication(int x, int y) {
+	z = y 
+	System.out.println(z)
+}
+
+Public static void main(String args[]) {
+int a = 20, b = 10;
+Eg demo = new Eg();
+demo.addition(a, b);
+demo.multiplication(a, b);
+}
+}
+
+In object-orientated programming, polymorphism allows subclasses to demonstrate unique behaviours but share functionality with the parent class.. 
+
+Example:
+
+public void printTotal(){
+
+	System.out.println("Your total is" + getTotal());
+
+	}
+
+Subclasses can then print out different total when referencing this method from the superclass.
+
+Abstraction is the process of hiding the implementation details from a user.
+
+Example:
+
+public abstract class Example {
+
+public void subtraction(int x, int y){
+	z = x - y;
+	System.out.println(z)
+	}
+
+
+
